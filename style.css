@@ -1,0 +1,104 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background:#ddd;
+  color:white;
+  text-align:center;
+  overflow: hidden;
+}
+
+h1{
+  font-family: 'Comfortaa';
+  font-size:5em;
+  position:relative; top:1em; bottom:0; left:0; right:0;
+	margin:auto; height:200px; width:70%; 
+  
+  -webkit-animation: floating-text 2s ease alternate infinite;
+     -moz-animation: floating-text 2s ease alternate infinite;
+      -ms-animation: floating-text 2s ease alternate infinite;
+       -o-animation: floating-text 2s ease alternate infinite;
+          animation: floating-text 2s ease alternate infinite;
+}
+
+p{
+  color:white;
+  width:100%;
+  top:0em;
+  font-weight:300;
+  text-shadow: 0 0 .2em rgba(0,0,0,.7);
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
+}
+
+@-webkit-keyframes floating-text {
+  0% {  
+    -webkit-transform: translateY(.1em);
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .3em .2em rgba(0,0,0,.3);
+
+  }
+  100% {
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .5em .5em rgba(0,0,0,.3);
+  }
+}
+@-moz-keyframes floating-text {
+  0% {  
+    -moz-transform: translateY(.1em);
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .3em .2em rgba(0,0,0,.3);
+
+  }
+  100% {
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .5em .5em rgba(0,0,0,.3);
+  }
+}
+@-ms-keyframes floating-text {
+  0% {  
+    -ms-transform: translateY(.1em);
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .3em .2em rgba(0,0,0,.3);
+
+  }
+  100% {
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .5em .5em rgba(0,0,0,.3);
+  }
+}
+@-o-keyframes floating-text {
+  0% {  
+    -o-transform: translateY(.1em);
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .3em .2em rgba(0,0,0,.3);
+
+  }
+  100% {
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .5em .5em rgba(0,0,0,.3);
+  }
+}
+@keyframes floating-text {
+  0% {  
+    transform: translateY(.1em);
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .3em .2em rgba(0,0,0,.3);
+
+  }
+  100% {
+    text-shadow:0 0 .5em rgba(255,255,255,.4),
+      0 0 .2em rgba(0,0,0,.3),
+      0 .5em .5em rgba(0,0,0,.3);
+  }
+}
