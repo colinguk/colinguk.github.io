@@ -10,7 +10,8 @@ h1{
   font-family: 'Comfortaa';
   font-size:5em;
   position:relative; top:1em; bottom:0; left:0; right:0;
-	margin:auto; height:200px; width:70%; 
+  margin:auto; height:200px; width:70%;
+  cursor: pointer; 
   
   -webkit-animation: floating-text 2s ease alternate infinite;
      -moz-animation: floating-text 2s ease alternate infinite;
