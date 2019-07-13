@@ -1,3 +1,4 @@
 remote_theme: rohanchandra/type-theme
+baseurl: "blog"
 url: "https://coling.uk"
 title: ColinG.uk
