@@ -1,5 +1,4 @@
 remote_theme: rohanchandra/type-theme
-title: ColinG.uk
 
 # SITE CONFIGURATION
 baseurl: "/blog"
@@ -80,7 +79,9 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
+  - jekyll-remote-theme
 exclude:
   - Gemfile
   - Gemfile.lock
