@@ -82,6 +82,6 @@ sass:
 plugins: 
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-include-cache
 exclude:
-  - Gemfile
   - Gemfile.lock
