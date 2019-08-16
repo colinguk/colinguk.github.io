@@ -1,10 +1,10 @@
 title: ColinG.uk/blog
 description: Colin's Blog
 
-url: http://coling.uk
-baseurl: "/blog"
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+url: https://coling.uk
+baseurl: "/blog/"
+paginate_path: "page:num/"
+permalink: :title/
 
 markdown: kramdown
 highlighter: rouge
