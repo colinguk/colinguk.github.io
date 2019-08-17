@@ -6,9 +6,13 @@ baseurl: "/blog/"
 paginate_path: "page:num/"
 permalink: :title/
 
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+remote_theme: benbalter/retlab
+
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
