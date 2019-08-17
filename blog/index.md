@@ -1,6 +1,6 @@
 ---
-layout: home
-author_profile: true
+layout: default
+title: Blog
 ---
 
 ## Coming Soon
