@@ -26,6 +26,7 @@ p{
   top:0em;
   font-weight:300;
   text-shadow: 0 0 .2em rgba(0,0,0,.7);
+  visibility: hidden;
 }
 
 a{
